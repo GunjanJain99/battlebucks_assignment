@@ -1,9 +1,4 @@
-//
-//  AssignmentUITestsLaunchTests.swift
-//  AssignmentUITests
-//
-//  Created by Saurabh Mahavarkar on 19/10/25.
-//
+
 
 import XCTest
 

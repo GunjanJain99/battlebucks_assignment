@@ -1,9 +1,4 @@
-//
-//  AssignmentTests.swift
-//  AssignmentTests
-//
-//  Created by Saurabh Mahavarkar on 19/10/25.
-//
+
 
 import Testing
 @testable import Assignment

@@ -1,24 +1,21 @@
-//
-//  ContentView.swift
-//  Assignment
-//
-//  Created by Saurabh Mahavarkar on 19/10/25.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            PostsListView()
+                .tabItem {
+                    Label("Posts", systemImage: "list.bullet")
+                }
+
+            FavoritesView()
+                .tabItem {
+                    Label("Favorites", systemImage: "heart.fill")
+                }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+
